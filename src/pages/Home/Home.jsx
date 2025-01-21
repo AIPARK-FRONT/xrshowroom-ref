@@ -38,7 +38,7 @@ const Home = () => {
     }
   }, [metaInfo]) // 의존성 배열에 metaInfo를 포함
   useEffect(() => {
-    fetch('/assets/video_meta.json')
+    fetch('/xrshowroom-ref/assets/video_meta.json')
       .then((response) => response.json())
       .then((data) => {
         const metaArray = Object.entries(data).map(([menuName, videos], menuIdx) => {
