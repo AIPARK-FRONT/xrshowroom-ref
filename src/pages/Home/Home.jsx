@@ -4,7 +4,7 @@ import VideoPlayer from '../../components/VideoPlayer/VideoPlayer'
 import VideoDescription from '../../components/VideoDescription/VideoDescription'
 import HamburgerMenu from '../../components/Navigation/HamburgerMenu'
 import './Home.css' // 홈 페이지 전용 스타일
-const logo = '/assets/images/AiVATAR_logo.png' // 로고 이미지 경로를 올바르게 설정하세요
+const logo = '/xrshowroom-ref/assets/images/AiVATAR_logo.png' // 로고 이미지 경로를 올바르게 설정하세요
 let video_root = 'https://azureasset.aivatar.ai/aivatar/xrshowroom/'
 const Home = () => {
   const [metaInfo, setMetaInfo] = useState([]) // 비디오 목록 상태

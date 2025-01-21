@@ -1,29 +1,23 @@
-import React, { useState, useRef } from 'react';
-import PropTypes from 'prop-types';
-import VideoListItem from './VideoListItem/VideoListItem';
-import './VideoList.css';
+import React, { useState, useRef } from 'react'
+import PropTypes from 'prop-types'
+import VideoListItem from './VideoListItem/VideoListItem'
+import './VideoList.css'
 
-const rightArrowIcon = '/assets/images/arrow_white_right.png';
-const leftArrowIcon = '/assets/images/arrow_white_left.png';
-const rightHoverArrowIcon = '/assets/images/arrow_blue_right.png';
-const leftHoverArrowIcon = '/assets/images/arrow_blue_left.png';
+const rightArrowIcon = '/xrshowroom-ref/assets/images/arrow_white_right.png'
+const leftArrowIcon = '/xrshowroom-ref/assets/images/arrow_white_left.png'
+const rightHoverArrowIcon = '/xrshowroom-ref/assets/images/arrow_blue_right.png'
+const leftHoverArrowIcon = '/xrshowroom-ref/assets/images/arrow_blue_left.png'
 
 const ArrowButton = ({ direction, onClick }) => {
-  const [currentIcon, setCurrentIcon] = useState(
-    direction === 'right' ? rightArrowIcon : leftArrowIcon
-  );
+  const [currentIcon, setCurrentIcon] = useState(direction === 'right' ? rightArrowIcon : leftArrowIcon)
 
   const handleMouseEnter = () => {
-    setCurrentIcon(
-      direction === 'right' ? rightHoverArrowIcon : leftHoverArrowIcon
-    );
-  };
+    setCurrentIcon(direction === 'right' ? rightHoverArrowIcon : leftHoverArrowIcon)
+  }
 
   const handleMouseLeave = () => {
-    setCurrentIcon(
-      direction === 'right' ? rightArrowIcon : leftArrowIcon
-    );
-  };
+    setCurrentIcon(direction === 'right' ? rightArrowIcon : leftArrowIcon)
+  }
 
   return (
     <button
@@ -34,22 +28,22 @@ const ArrowButton = ({ direction, onClick }) => {
     >
       <img src={currentIcon} alt={direction} />
     </button>
-  );
-};
+  )
+}
 
 const VideoList = ({ videos, onVideoSelect }) => {
-  const listRef = useRef(null);
+  const listRef = useRef(null)
 
   const scroll = (direction) => {
-    const { current } = listRef;
+    const { current } = listRef
     if (current) {
-      const scrollDistance = window.innerWidth / 4.39;
+      const scrollDistance = window.innerWidth / 4.39
       current.scrollBy({
         left: direction === 'left' ? -scrollDistance : scrollDistance,
         behavior: 'smooth',
-      });
+      })
     }
-  };
+  }
 
   return (
     <div className="video-list-background">
@@ -57,18 +51,14 @@ const VideoList = ({ videos, onVideoSelect }) => {
         <ArrowButton direction="left" onClick={() => scroll('left')} />
         <div className="video-list" ref={listRef}>
           {videos.map((video, index) => (
-            <VideoListItem
-              key={index}
-              video={video}
-              onVideoSelect={onVideoSelect}
-            />
+            <VideoListItem key={index} video={video} onVideoSelect={onVideoSelect} />
           ))}
         </div>
         <ArrowButton direction="right" onClick={() => scroll('right')} />
       </div>
     </div>
-  );
-};
+  )
+}
 
 VideoList.propTypes = {
   videos: PropTypes.arrayOf(
@@ -80,6 +70,6 @@ VideoList.propTypes = {
     })
   ).isRequired,
   onVideoSelect: PropTypes.func.isRequired,
-};
+}
 
-export default VideoList;
+export default VideoList
