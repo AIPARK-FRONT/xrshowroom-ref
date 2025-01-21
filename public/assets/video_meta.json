@@ -1,0 +1,59 @@
+{
+	"카테고리":
+		[
+        {
+            "video_menu_title": "이슈 브리핑",
+            "video_desc_title": "AI아바타와 함께하는\n이슈 브리핑",
+            "video_filename": "Issue_Briefing.webm",
+            "thumbnail_filename": "Issue_Briefing.jpg",
+            "video_desc_keywords": ["이슈 브리핑"],
+            "video_desc_content1": "진행자 섭외 및 촬영을 위한 시간과 리소스 절약 \n다양한 채널로 활용 가능한 영상 제작 \n현대적 기술 접목을 통해 시청자의 몰입도 증대",
+            "video_desc_content2": "본 영상은 AI 아바타 서비스를 활용하여 제작한 이슈 브리핑입니다. 전통적인 촬영 방식이나 진행자 섭외 없이, 에이아이파크의 AI 아바타만으로 최신 자동차 기술과 뉴스를 전달하며, 이를 통해 한국자동차연구원은 시간과 자원을 크게 절약할 수 있었습니다. 또한 본 영상은 유튜브와 오프라인 대규모 행사를 통해 다양한 관객에게 전달되었으며, 혁신적인 기술 접목으로 참석자들에게 새로운 경험을 제공했습니다."
+        },
+        {
+            "video_menu_title": "제품 홍보",
+            "video_desc_title": "AI아바타로 새롭게 탄생한\n제품 홍보 영상",
+            "video_filename": "Product_Promo.webm",
+            "thumbnail_filename": "Product_Promo.jpg",
+            "video_desc_keywords": ["제품 홍보"],
+            "video_desc_content1": "부드럽고 친근한 톤의 광고 제작 \n모델 섭외 및 촬영 부담 없이 효과적 광고 제작 \nAI아바타를 활용한 혁신적 마케팅 및 차별화",
+            "video_desc_content2": "본 영상은 세이프텍의 스마트헤스타 가스화재 안전장치 디바이스를 홍보하기 위해 우리의 AI 아바타 기술을 활용하여 제작되었습니다. 전통적인 광고 방식과는 달리, AI 아바타를 통해 더 친근하고 매력적인 메시지 전달이 가능해졌으며, 이를 통해 세이프텍은 모델 섭외와 촬영에 따른 비용과 시간을 절감할 수 있었습니다. 이 혁신적인 접근은 세이프텍이 시장에서 더욱 돋보이게 하는 요소가 되었습니다."
+        },
+        {
+            "video_menu_title": "교육",
+            "video_desc_title": "AI아바타로 제작된\n이러닝 교육 영상",
+            "video_filename": "Education.webm",
+            "thumbnail_filename": "Education.jpg",
+            "video_desc_keywords": ["교육"],
+            "video_desc_content1": "강사 섭외 없이 기획자 혼자 영상 제작 \n전문적인 비주얼과 정돈된 어투로 강의 진행 \nAI아바타의 정제된 제스처로 집중도 향상",
+            "video_desc_content2": "본 영상은 개인정보보호에 대한 중요한 교육 내용을 AI 아바타를 활용해 제작한 e-learning 교육 영상입니다. 전통적인 강사 섭외 없이도, 에이아이파크의 AI 아바타는 전문가적인 외모와 정제된 언어 및 제스처로 교육 내용을 효과적으로 전달합니다. 이를 통해 강의 기획자는 직접 우수한 콘텐츠를 제작할 수 있으며, 학습자들은 산만함 없이 교육에 집중할 수 있게 되었습니다"
+        },
+        {
+            "video_menu_title": "홈쇼핑",
+            "video_desc_title": "AI쇼호스트의\n여행 상품 판매 영상",
+            "video_filename": "Home_Shopping.webm",
+            "thumbnail_filename": "Home_Shopping.jpg",
+            "video_desc_keywords": ["홈쇼핑"],
+            "video_desc_content1": "매력적인 AI아바타의 뛰어난 호소력 \n쇼호스트 섭외 과정을 없애 비용 절감 \n홈쇼핑의 유연한 스케줄에 대처 가능",
+            "video_desc_content2": "본 영상은 홈쇼핑 채널에서 AI 아바타가 쇼호스트로 등장하여 여행 상품을 성공적으로 판매하는 모습을 보여줍니다. 실제 쇼호스트 대신 AI 아바타를 사용함으로써, 쇼호스트 섭외에 드는 비용을 크게 절감할 수 있었으며, AI 아바타의 호소력 있는 프레젠테이션 능력은 상품 판매에 큰 도움이 되었습니다. 특히, 하드웨어 제품이 아닌 여행 상품과 같은 경우에는 AI 아바타의 활용이 매우 효과적인 것으로 나타났습니다."
+        },
+        {
+            "video_menu_title": "서비스 홍보",
+            "video_desc_title": "다양한 매력의 AI아바타가\n선보이는 서비스 광고",
+            "video_filename": "Service_Promo.webm",
+            "thumbnail_filename": "Service_Promo.jpg",
+            "video_desc_keywords": ["서비스 홍보"],
+            "video_desc_content1": "AI아바타를 활용한 다채로운 연출 \n큰 비용 절감 및 효과적 광고 제작 \n전문적 비주얼의 AI아바타로 서비스 신뢰도 상승",
+            "video_desc_content2": "본 광고 영상은 피플링크의 컨택센터 서비스를 소개하기 위해 제작되었습니다. AI 아바타를 활용하여 다양한 의상과 연출을 선보이며, 이를 통해 서비스의 다양성과 전문성을 효과적으로 전달하였습니다. 제작단에서의 높은 비용 효율성뿐만 아니라, 결과물로서 AI 아바타의 신뢰성 있는 이미지는 서비스에 대한 신뢰도를 높이는 데 기여했습니다."
+        },
+        {
+            "video_menu_title": "행사/소식",
+            "video_desc_title": "AI아바타가 전하는\n사내 주요 소식",
+            "video_filename": "Event_News.webm",
+            "thumbnail_filename": "Company_Event_News.jpg",
+            "video_desc_keywords": ["행사/소식"],
+            "video_desc_content1": "AI아바타로 인해 행사 몰입감 향상 \n회사의 디지털 전환과 혁신성 어필 \n내부 구성원과 외빈에게 효과적으로 소식 전달",
+            "video_desc_content2": "본 영상은 인포플러스가 주최한 행사에서 중요한 회사 소식을 전달하기 위해 제작되었습니다. AI 아바타가 뉴스 앵커로 등장하여 소식을 전달함으로써 행사의 몰입감을 높였고, 이러한 혁신적인 접근은 회사의 디지털로의 전환을 강조하는 동시에, 내부 구성원과 외부 빈에게 효과적으로 정보를 전달하는 데 기여했습니다."
+        }
+	]
+}
