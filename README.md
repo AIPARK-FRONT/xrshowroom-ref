@@ -2,6 +2,8 @@
 
 xrshowroom 레퍼런스 사이트 화면
 
+https://AIPARK-FRONT.github.io/xrshowroom-ref
+
 ### 데이터 업데이트 방법
 
 - 이미지: 애플리케이션 코드 내에서 작업

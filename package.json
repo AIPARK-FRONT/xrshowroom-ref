@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A brief description of your project",
   "main": "index.js",
+  "homepage": "https://AIPARK-FRONT.github.io/xrshowroom-ref",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
@@ -16,11 +19,11 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
-  "devDependencies": {},
   "browserslist": {
     "production": [
       ">0.2%",
