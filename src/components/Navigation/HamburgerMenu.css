@@ -1,51 +1,51 @@
 .menu-close-button {
-    cursor: pointer;       
-    margin-left: 35px;
-    margin-top: 20px;          
-    opacity: 1; 
-    background: none; 
-    border: none;          
+  cursor: pointer;
+  margin-left: 35px;
+  margin-top: 20px;
+  opacity: 1;
+  background: none;
+  border: none;
 }
 .menu-button {
-    background: none;      
-    border: none;          
-    cursor: pointer;       
-    position: absolute;    
-    left: 94px;            
-    top: 40px;              
-    opacity: 1;            
-    display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 94px;
+  top: 40px;
+  opacity: 1;
+  /* display: none; */
 }
 
 .menu-button.open {
-    opacity: 0.5;          
+  opacity: 0.5;
 }
 
 .menu-button span {
-    background-color: #333; 
-    display: block;
-    height: 3px;             
-    margin: 5px 0;           
-    transition: all 0.3s ease-in-out;
+  background-color: #333;
+  display: block;
+  height: 3px;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
 }
 
-.menu-list-section{
-    top: 0;
-    position: fixed;
-    width: 300px;       
-    height: 100vh;      
-    background-color: #000000;  
-    color: #FFFFFF;
-    overflow-y: auto;  
-    z-index: 1000;
+.menu-list-section {
+  top: 0;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-y: auto;
+  z-index: 1000;
 }
-.menu-button-category{
-    font-size: 25pt;    
-    margin-left: 35px;
-    margin-top: 30px;
+.menu-button-category {
+  font-size: 25pt;
+  margin-left: 35px;
+  margin-top: 30px;
 }
 
-.menu-button-video-ul{
-    font-size: 18pt;
-    line-height: 1.8em;
+.menu-button-video-ul {
+  font-size: 18pt;
+  line-height: 1.8em;
 }
